@@ -14,3 +14,6 @@ The main branch has the latest update.
 1. Migrate database: ```python manage.py migrate``` 
 1. Create a superuser: ```python manage.py createsuperuser``` and follow the instractions
 1. Start the server: ```python manage.py runserver```
+
+## Week 1
+We created the project, added a ``tweets``` application and created the Tweet model. Then created a simple ```feed``` page to check database connectivity.
