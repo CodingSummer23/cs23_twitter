@@ -17,3 +17,6 @@ The main branch has the latest update.
 
 ## Week 1
 We created the project, added a ```tweets``` application and created the Tweet model. Then created a simple ```feed``` page to check database connectivity.
+
+## Week 2
+We created a login form leading to the profile page (pages are still just placeholders)
