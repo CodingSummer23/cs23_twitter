@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>LOGIN</h1>
+
+    {% if form.errors %}
+        <div>Wrong username and/or password</div>
+    {% endif %}
+
+    <form method="post" action="{% url 'login' %}">
+        {% csrf_token %}
+        {{ form.username }} <br>
+        {{ form.password }} <br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
